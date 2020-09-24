@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+  }
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-image: url('img/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#header {
+    max-width: 1139px;
+    min-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+.logo {
+    font-size: 18px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav img, label img {
+    vertical-align: middle;
+}
+.logo {
+    float: left;
+}
+.header-menu {
+    float: right;
+}
+.header-menu .nav-item {
+    margin-right: 20px;
+}
+.header-menu .nav-item:last-child {
+    margin: 0;
+}
+.header-menu a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.white-block {
+    width: 365px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 100px auto 50px;
+    padding-bottom: 30px;
+}
+.purple-block {
+    width: 324px;
+    background: #AB47BC;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+    top: -50px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+.purple-block h1 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+.social-icons {
+    margin-top: 30px;
+    display: flex; 
+    justify-content: center;
+}
+.social-icons .nav-item {
+    margin-right: 30px;
+}
+.social-icons .nav-item:last-child {
+    margin: 0;
+}
+.slogan {
+    text-align: center;
+    font-size: 14px;
+    margin: -20px 0 30px;
+}
+#sign-up {
+    text-align: center;
+}
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #d2d2d2;
+    color: #999;
+    font-size: 14px;
+    width: 255px;
+    padding: 10px 0;   
+    background: transparent;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+input:focus{
+    outline: none;
+}
+label {
+    margin-right: 10px;
+}
+.submit-btn {
+    background: transparent;
+    color: #AB47BC;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
