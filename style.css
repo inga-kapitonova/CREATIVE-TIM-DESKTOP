@@ -57,7 +57,8 @@ nav img, label img {
     float: right;
     width: 22px;
     height: 14px;
-    background: url('img/menu.svg')
+    background: url('img/menu.svg');
+    margin-right: 20px;
 }
 .white-block {
     width: 365px;
